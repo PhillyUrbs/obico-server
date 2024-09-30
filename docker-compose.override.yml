@@ -1,0 +1,4 @@
+x-web-defaults: &web-defaults
+  volumes:
+    - /home/phil/obico-server/server-config/backend:/app
+    - /home/phil/obico-server/server-config/frontend:/frontend
