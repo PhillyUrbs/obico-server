@@ -37,7 +37,7 @@ jobs:
         target_sync_branch: main
         # REQUIRED 'target_repo_token' exactly like this!
         target_repo_token: ${{ secrets.GITHUB_TOKEN }}
-        upstream_sync_branch: main
+        upstream_sync_branch: release
         upstream_sync_repo: TheSpaghettiDetective/obico-server
         #upstream_repo_access_token: ${{ secrets.UPSTREAM_REPO_SECRET }}
 
